@@ -1,6 +1,6 @@
 ## 上海交通大学蒋坤课题组
 
-You can use the [editor on GitHub](https://github.com/lindahuhu/lindahuhu.github.io/blob/5ecf734b2e5ed7971b0c2e27ea559fbddfc0cff5/test.md) to maintain and preview the content for your website in Markdown files.
+You can use the [find_me](test.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
