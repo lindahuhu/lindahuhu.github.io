@@ -8838,7 +8838,8 @@ textarea.form-control-lg {
   color: #212529; }
 
 .carousel {
-  position: relative; }
+  position: relative; 
+}
 
 .carousel.pointer-event {
   touch-action: pan-y; }
