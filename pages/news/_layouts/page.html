@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+{% include head.html -%}
+<body > <!-- ondragstart="return false;"-->
+{% include header.html -%}
+<main>
+
+    <h1 class="display-10 text-dark" style ="margin-top: 20px;
+    margin-bottom: 12px;
+    text-align: center;
+    display: block;
+    position: relative;"><b  >News</b></h1>
+    <div class="box fix">
+        <div class="main_left  w_100">
+
+        {{ content }}
+
+        </div>
+    </div>
+</main>
+{% include footer.html -%}
+<!-- {% include script.html -%}-->
+</body>
+</html>

@@ -50,7 +50,9 @@ body {
 
 /* Supporting marketing content */
 .marketing {
-  margin: 3rem 0;
+  /*margin: 3rem 0;*/
+  left:5%;
+  width:90%;
 }
 .marketing p + h4 {
   margin-top: 1.5rem;
