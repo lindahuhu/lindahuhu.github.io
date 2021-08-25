@@ -4917,8 +4917,9 @@ progress {
     content: "\2014\00A0"; }
 
 .img-fluid {
-  max-width: 100%;
-  height: auto; }
+  max-width: 8cm;
+  height: auto;
+}
 
 .img-thumbnail {
   padding: 0.25rem;
@@ -5324,7 +5325,8 @@ progress {
     width: 50%; }
   .col-md-7 {
     flex: 0 0 auto;
-    width: 58.33333%; }
+    width: 58.33333%;
+  text-align: center;}
   .col-md-8 {
     flex: 0 0 auto;
     width: 66.66667%; }
@@ -13602,4 +13604,56 @@ label.form-check .form-check-input {
   font-family: Times New Roman;
   font-size: 18px;
   font-weight: 400;
+}
+
+
+
+.contentpd-img{
+  float: left;
+  max-height: 200px;
+  margin-bottom: 15px;
+  margin-right: 31px;
+
+
+}
+.year-mews {
+  position: relative;
+}
+
+.year-mews:before {
+  content: '';
+  position: absolute;
+  width: 2px;
+  background: transparent;
+
+  top: 20px;
+  left: 12px;
+}
+
+
+
+news-item {
+  position: absolute;
+  padding-bottom: 10px;
+}
+.time a {
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 18px;
+  color: #3a3a3a;
+  font-family: Times New Roman;
+}
+
+
+.contentpb{float:left;text-align: left;}
+.news-item .contentpb .con1{margin-bottom:3px;}
+
+
+.dh {
+  padding: 0 13px;
+  box-sizing: border-box;
+  margin-bottom: 5px;
+  margin-top: 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #dbdbdb;
 }
