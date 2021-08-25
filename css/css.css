@@ -831,7 +831,7 @@ img {
 	font-family: Times New Roman;
 }
 .block-news .news-item .xp{display:block; float:left; line-height:31px;}
-.block-news .news-item .contentpb{float:left; width:1150px;}
+.block-news .news-item .contentpb{float:left;}
 .block-news .news-item .contentpb .con1{margin-bottom:3px;}
 .block-news .news-item .contentpb .title a {
 	color: #3a3a3a;
