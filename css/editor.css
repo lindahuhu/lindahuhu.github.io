@@ -13657,3 +13657,25 @@ news-item {
   padding-bottom: 5px;
   border-bottom: 1px solid #dbdbdb;
 }
+
+.back-to {
+        bottom: 100px;
+        overflow: hidden;
+        position: fixed;
+        right: 150px;
+        width: 110px;
+        z-index: 999;
+    }
+    .back-to .back-top {
+        background: url("../img/top.png") no-repeat scroll 0 0 transparent;
+        display: block;
+        float: right;
+        height: 50px;
+        margin-left: 10px;
+        outline: 0 none;
+        text-indent: -9999em;
+        width: 50px;
+    }
+    .back-to .back-top:hover {
+        background-position: -50px 0
+    }
