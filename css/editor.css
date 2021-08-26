@@ -8849,7 +8849,10 @@ textarea.form-control-lg {
   color: #212529; }
 
 .carousel {
-  position: relative; 
+  position: relative;
+  margin-right: auto;
+margin-left: auto;
+  padding:0;
 }
 
 .carousel.pointer-event {
