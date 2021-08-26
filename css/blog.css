@@ -104,6 +104,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .blog-img{
 
-  max-width:120px;
+  max-width:296px;
+
   ;_width:expression(this.width > 201 ? "201px" : this.width);
 }

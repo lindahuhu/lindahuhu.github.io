@@ -29,11 +29,33 @@
 </head>
 
 <body>
+<script>
+    $(function () {
+        var bt = $('#toolBackTop');
+        var sw = $(document.body)[0].clientWidth;
 
+        var limitsw = (sw - 840) / 2 - 80;  //距离右侧距离
+        if (limitsw > 0){
+            limitsw = parseInt(limitsw);
+            bt.css("right",limitsw/4);
+        }
+
+        $(window).scroll(function() {
+            var st = $(window).scrollTop();
+            if(st > 30){
+                bt.show();
+            }else{
+                bt.hide();
+            }
+        });
+    });
+
+</script>
 
 
 
 <header>
+    <div class="top_style" >
     <nav class="navbar navbar-expand-md navbar-light fixed-top ">
 
 
@@ -73,7 +95,7 @@
             </div>
         </div>
 
-    </nav>
+    </nav></div>
 
 
 </header>
@@ -87,10 +109,9 @@
 
   </div>
 
-      <div style="padding-top: 50px;right: 0;margin-left: 5%;;
-  left: 0;z-index: 1029;  background-color:rgba(255,255,255,0.8); width: 100%; height: auto ;">
+      <div class="top_style" style="padding-top: 50px;;z-index: 1029;  background-color:rgba(255,255,255,0.8); width: 100%; height: auto ;">
 
-          <p class="time">
+          <p class="time" style="text-align: center">
 
               <a href="publications.html?ClassID=4#2021">[2021]</a>
               <a href="publications.html?ClassID=4#2020">[2020]</a>
@@ -98,7 +119,7 @@
               <a href="publications.html?ClassID=4#Prior_to_SJTU">[Prior to SJTU]</a>
           </p>
 
-          <p class="time"><a class="lead">
+          <p class="time" style="text-align: center"><a class="lead">
               # Equal contribution; * Corresponding author
           </a></p>
       </div>
