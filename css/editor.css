@@ -4834,16 +4834,16 @@ progress {
   display: none !important; }
 
 .lead {
-  font-size: 26px;
+  font-size: 23px;
   font-weight: 300;}
 .lead-title{
-  font-size:25px;
+  font-size:20px;
   font-weight: bolder;
 
 }
 
 .hint{
-  font-size: 1.25rem;
+  font-size:20px;
   color:red;
 }
 
@@ -4927,8 +4927,9 @@ progress {
     content: "\2014\00A0"; }
 
 .img-fluid {
-  max-width: 10cm;
-  height: auto;
+
+  max-height: 6cm;
+  width:auto;
 }
 
 .img-thumbnail {
