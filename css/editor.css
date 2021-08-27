@@ -4834,8 +4834,18 @@ progress {
   display: none !important; }
 
 .lead {
+  font-size: 26px;
+  font-weight: 300;}
+.lead-title{
+  font-size:25px;
+  font-weight: bolder;
+
+}
+
+.hint{
   font-size: 1.25rem;
-  font-weight: 300; }
+  color:red;
+}
 
 .display-1 {
   font-size: calc(1.625rem + 4.5vw);
@@ -4917,7 +4927,7 @@ progress {
     content: "\2014\00A0"; }
 
 .img-fluid {
-  max-width: 8cm;
+  max-width: 10cm;
   height: auto;
 }
 
@@ -13687,5 +13697,5 @@ news-item {
 
     .top_style{
       MARGIN-RIGHT: auto;MARGIN-LEFT: auto;
-      width:950px;  padding:0px;
+      width:980px;  padding:0px;
     }
