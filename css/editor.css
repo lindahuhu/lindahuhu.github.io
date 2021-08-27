@@ -9779,7 +9779,11 @@ margin-left: auto;
 .my-5 {
  margin-top: 3rem !important;
  margin-bottom: 3rem !important; }
-
+.img-center{
+  display:block;
+  position:relative;
+  margin:auto;
+}
 .my-auto {
  margin-top: auto !important;
  margin-bottom: auto !important; }
