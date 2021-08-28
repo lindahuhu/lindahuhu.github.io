@@ -20,32 +20,7 @@
     <link href="../css/blog.css" rel="stylesheet">
     <link href="../css/pricing.css" rel="stylesheet">
 
-    <!-- fancy img float -->
-    <link rel="stylesheet" type="text/css" href="../css/fancy.css" media="screen" />
-    <script type="text/javascript" src="../js/jquery-1.2.3.pack.js"></script>
-    <script type="text/javascript" src="../js/jquery.pngFix.pack.js"></script>
-    <script type="text/javascript" src="../js/jquery.fancybox-1.0.0.js"></script>
 
-    <script type="text/javascript">
-        $(document).ready(function() {
-            //Activate FancyBox
-            $("div#img_float a").fancybox({
-                'hideOnContentClick': true
-            });
-
-        });
-
-        //List can contain mixed media too
-        //Parameter "o" ir optional and used to override settings, example: {url: "http://www.google.com", title: false,  o: {'frameWidth': 200} }
-
-
-        function getGroupItems(opts) {
-            jQuery.each(imageList, function(i, val) {
-                opts.itemArray.push(val);
-            });
-        }
-
-    </script>
 </head>
 
 <body>
@@ -99,28 +74,35 @@
 
             <hr class="mt-2 mb-5">
 
-            <div class="row text-center text-lg-left" id="img_float">
+
+            <div class="row text-center text-lg-left" >
 
                 <div class="col-lg-4 col-md-4" >
-                    <a href="../img/Gallery-1.png" class="d-block mb-4 h-100" >
+                    <a href="../img/group.jpeg" class="d-block mb-4 h-100"  target="_blank">
+                        <img class="img-fluid img-thumbnail" src="../img/group.jpeg" alt="">
+
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-4" >
+                    <a href="../img/Gallery-1.png" class="d-block mb-4 h-100"  target="_blank">
                         <img class="img-fluid img-thumbnail" src="../img/Gallery-1.png" alt="">
 
                     </a>
                 </div>
                 <div class="col-lg-4 col-md-4">
-                    <a href="../img/Gallery-2.png" class="d-block mb-4 h-100">
+                    <a href="../img/Gallery-2.png" class="d-block mb-4 h-100" target="_blank">
                         <img class="img-fluid img-thumbnail" src="../img/Gallery-2.png" alt="">
 
                     </a>
                 </div>
                 <div class="col-lg-4 col-md-4">
-                    <a href="../img/Gallery-3.png" class="d-block mb-4 h-100">
+                    <a href="../img/Gallery-3.png" class="d-block mb-4 h-100" target="_blank">
                         <img class="img-fluid img-thumbnail" src="../img/Gallery-3.png" alt="">
 
                     </a>
                 </div>
                 <div class="col-lg-4 col-md-4">
-                    <a href="../img/Gallery-4.png" class="d-block mb-4 h-100">
+                    <a href="../img/Gallery-4.png" class="d-block mb-4 h-100" target="_blank">
                         <img class="img-fluid img-thumbnail" src="../img/Gallery-4.png" alt="">
 
                     </a>
